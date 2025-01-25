@@ -4,7 +4,7 @@ import br.com.expdev.springbootcleanarch.domain.entity.User;
 import br.com.expdev.springbootcleanarch.infrastructure.persistence.UserEntity;
 
 public class UserEntityMapper {
-  UserEntity toEntity(User userDomainObj) {
+  public UserEntity toEntity(User userDomainObj) {
     return new UserEntity(userDomainObj.username(), userDomainObj.password(), userDomainObj.email());
   }
 
