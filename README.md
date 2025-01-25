@@ -2,6 +2,8 @@
 
 Este projeto demonstra a migração de uma arquitetura em camadas para Clean Architecture utilizando Spring Boot. Ele inclui uma estrutura modular com camadas claramente separadas e testes para cada uma.
 
+https://github.com/user-attachments/assets/b0d96f6c-cad9-4919-be31-a110adf9c4f3
+
 ## Estrutura do Projeto
 
 - **Domain**: Contém as entidades e casos de uso do negócio.
@@ -81,6 +83,8 @@ Para rodar os testes unitários e de integração, execute:
 ```sh
 mvn test
 ```
+
+https://github.com/user-attachments/assets/dbef323b-d0e5-4da1-8154-3c741b045fa9
 
 ## Contribuição
 
